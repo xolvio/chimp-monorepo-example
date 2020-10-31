@@ -1,0 +1,5 @@
+{
+  "name": "@monorepo/common-library",
+  "version": "1.0.0",
+  "dependencies": {}
+}

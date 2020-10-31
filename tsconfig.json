@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2019",
+    "lib": ["es2020"],
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "~admin/*": ["./packages/admin/src/*"],
+      "~admin-generated/*": ["./packages/admin/generated/*"],
+      "~public/*": ["./packages/public/src/*"],
+      "~public-generated/*": ["./packages/public/generated/*"]
+    }
+  },
+  "include": [
+    "./packages/*/src/",
+    "./packages/*/generated/",
+    "./**/*.js"
+  ]
+}
